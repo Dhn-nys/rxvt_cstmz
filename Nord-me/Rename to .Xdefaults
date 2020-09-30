@@ -1,0 +1,81 @@
+!- Font Render
+Xft.dpi:55
+Xft.antialiasing:false
+Xft.rgba:rgb
+Xft.hinting:true
+Xft.lcdfilter:lcddefault
+
+*.cursorColor: #d8dee9
+
+URxvt.foreground:           #a3be8c
+URxvt.background:           #2e3440
+
+URxvt.borderColor:          #2e3440
+URxvt.borderless:          true
+URxvt.internalBorder: 5
+
+URxvt.colorBD:              #eceff4
+URxvt.colorIT:              #b48ead
+URxvt.colorUL:              #88c0d0
+URxvt.underlineColor:       #434c5e
+URxvt.highlightColor:       #d8dee9
+URxvt.highlightTextColor:   #3b4252
+
+URxvt.scrollstyle:plain
+URxvt.scrollBar:false
+URxvt.scrollTtyOutput:false
+URxvt.scrollWithBuffer:true
+URxvt.scrollTtyKeypress:true
+
+URxvt.cursorColor:          #d8dee9
+URxvt.cursorColor2:         #d8dee9
+URxvt.cursorBlink:          true
+URxvt.cursorUnderline:      true
+URxvt.depth:24
+
+!- Perl Extension
+URxvt.perl-ext-common:default,matcher,url-select,clipboard
+URxvt.url-launcher: ch  romium-browser
+URxvt.matcher.button:1
+
+!- Copy/paste
+URxvt.iso14755: False
+URxvt.keysym.Shift-Alt-C: perl:clipboard:copy
+URxvt.keysym.Shift-Alt-V: perl:clipboard:paste
+
+URxvt.underlineURLs:true
+URxvt.font:xft:Monospace:size=14 
+URxvt.transparent:false
+URxvt.shading:30
+URxvt.geometry:72x24
+
+!-Urgent Terminal for Notification
+URxvt*urgentOnBell: true
+
+    URxvt*visualBell:   false
+
+!- Color Scheme
+! Black
+*color0:      #434c5e
+*color8:      #434c5e
+! Red
+*color1:      #bf616a
+*color9:      #bf616a
+! Green
+*color2:      #a3be8c
+*color10:     #a3be8c
+! Yellow
+*color3:      #ebcb8b
+*color11:     #ebcb8b
+! Blue
+*color4:      #5e81ac
+*color12:     #5e81ac
+! Mangenta
+*color5:      #b48ead
+*color13:     #b48ead
+! Cyan
+*color6:      #88c0d0
+*color14:     #88c0d0
+! White
+*color7:      #eceff4
+*color15:     #eceff4
