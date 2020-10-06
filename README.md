@@ -16,6 +16,9 @@ Arch.
 
 ``yaourt -S rxvt-unicode-patched urxvt-perls``
 
+or
+``pacman -Sy rxvt-unicode``
+
 ## Config
 
 on ubuntu the file is in ``~/.Xdefaults``, while in arch linux it is ``~/.Xresources``. if it doesn't exist in ubuntu or arch, you first create the file.
