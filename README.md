@@ -1,6 +1,5 @@
 # rxvt customize (rxvt-unicode)
-
-Autor : Dhn-nys.
+urxvt-unicode commonly known as rxvt, is a color VT102 terminal emulator for X windows systems. urxvt was written by Marc Lehmann in 2003. urxvt can run in daemon mode, that is, it reduces memory usage and loading during terminal usage.
 
 ## Install
 
@@ -17,6 +16,7 @@ Arch.
 ``yaourt -S rxvt-unicode-patched urxvt-perls``
 
 or
+
 ``pacman -Sy rxvt-unicode``
 
 ## Config
